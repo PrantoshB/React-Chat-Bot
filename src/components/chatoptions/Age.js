@@ -9,7 +9,6 @@ const Age = (props) => {
   }
 
 
-  
   const handleAgeChange = (event) => {
     setSelectedAge(event.target.value);
     props.actionProvider.handleAge(event.target.value);
