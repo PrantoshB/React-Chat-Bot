@@ -8,6 +8,7 @@ const Age = (props) => {
     ageOptions.push(age.toString());
   }
 
+  // This piece of code is handling the age input from the user
   const handleAgeChange = (event) => {
     setSelectedAge(event.target.value);
     props.actionProvider.handleAge(event.target.value);
