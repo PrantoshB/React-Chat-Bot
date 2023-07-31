@@ -14,6 +14,8 @@ const Age = (props) => {
     props.actionProvider.handleAge(event.target.value);
   };
 
+
+  
   return (
     <div>
       <label htmlFor="age">Age: </label>
