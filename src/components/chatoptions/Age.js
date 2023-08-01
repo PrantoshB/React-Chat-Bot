@@ -14,8 +14,7 @@ const Age = (props) => {
     props.actionProvider.handleAge(event.target.value);
   };
 
-
-  
+// this is responsible for showing the age dropdown
   return (
     <div>
       <label htmlFor="age">Age: </label>
